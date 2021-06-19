@@ -2,51 +2,72 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #9EC1A3;
   }
 
   .header-content{
-    background-color: #9EC1A3;
-    padding-bottom: 40px;
+    background-image: url("stars.png");
+    background-size: cover;
+    padding: 200px 100px;
+    background-position: 50% 25%;
+    background-attachment: scroll;
   }
   .header-content h4{
-    color: #40798C;
+    color: #90d1b8;
     text-align: center; 
-    margin: 100px 0px 10px 4px;
+    margin: 20px 0px 10px 4px;
+    font-size: 18px;
   }
   .header-content h1{
-    color: #1F363D;
+    color: #977b79;
     line-height: 30px;
-  }
-  .skills{
-    padding: 30px 70px;
-    background-color: #CFE0C3;
-  }
-  .text-skills{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 50px;
-  }
-  .skills h4{
-    color: #1F363D;
-  }
-  .skills li{
-    color: #40798C;
-  }
-  h1{
     text-align: center;
   }
-  .picture{
-    display: block; margin-left: auto; margin-right: auto;
-    border-radius: 25px;
+  .skills{
+    padding: 70px 50px 40px 30px;
+    width: 80%;
+    margin: auto;
   }
- 
+  .skills-container{
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 70px 50px;
+  }
+  .skills h4{
+    color: #977b79;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .skills li{
+    color: #90d1b8;
+    font-size: 18px;
+  }
+  .skills-picture{
+    width: 120px;
+    border-radius: 80%;
+    float: left;
+    margin-top: 150px;
+    margin-right: 40px;
+    transform: rotate(-15deg);
+  }
+    
   h4{
-    color: rgb(158, 207, 250);
+    color: #977b79;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
   }
   
-  .button{
-    background-color:rgb(30, 37, 43);
+  .picture{
+    width: 150px;
+    border-radius: 25px;
+    float: right;
+    border: #977b79 solid 5px;
+    margin: 80px;
+  }
+  .footer-links{
     border-radius: 4px;
     padding: 5px 10px;
     color: rgba(252, 247, 247, 0.733);
