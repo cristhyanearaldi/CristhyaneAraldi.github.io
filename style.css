@@ -6,10 +6,11 @@ body{
 
   .nav-links{
    text-align: right;
+   margin-right: 100px;
   }
   .nav-links li{
-    display: inline;
-    margin-right: 50px;
+    display: inline-block;
+    width: 100px;
   }
   .header-content{
     background-image: url("stars.png");
