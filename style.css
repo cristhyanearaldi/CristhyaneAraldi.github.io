@@ -4,17 +4,24 @@ body{
     font-family: 'Open Sans', sans-serif;
   }
 
+  .nav-links{
+   text-align: right;
+  }
+  .nav-links li{
+    display: inline;
+    margin-right: 50px;
+  }
   .header-content{
     background-image: url("stars.png");
     background-size: cover;
-    padding: 200px 100px;
+    padding: 0 0 200px 0;
     background-position: 50% 25%;
     background-attachment: scroll;
   }
   .header-content h4{
     color: #90d1b8;
     text-align: center; 
-    margin: 20px 0px 10px 4px;
+    margin: 200px 0px 10px 4px;
     font-size: 18px;
   }
   .header-content h1{
