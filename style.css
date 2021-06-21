@@ -60,16 +60,34 @@ body{
     text-align: center;
   }
   
+  .contact{
+    text-align: center;
+    
+  }
+  .contact-links{
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .contact-icon{
+    width: 50px;
+    margin: 30px;
+    padding: 10px;
+    border: #90d1b8 solid 3px;
+    border-radius: 25px;
+  }
   .picture{
     width: 150px;
     border-radius: 25px;
     float: right;
     border: #977b79 solid 5px;
     margin: 80px;
+    margin-top: 0;
   }
-  .footer-links{
-    border-radius: 4px;
-    padding: 5px 10px;
-    color: rgba(252, 247, 247, 0.733);
-    text-decoration: none;
-  }
+.footer{
+  margin-top: 300px;
+  text-align: center;
+  padding: 0 40% 0 40%;
+  font-size: 14px;
+  font-style: italic;
+}
