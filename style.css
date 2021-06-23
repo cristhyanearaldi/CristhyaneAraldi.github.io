@@ -2,15 +2,25 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: black;
   }
 
   .nav-links{
    text-align: right;
    margin-right: 100px;
   }
+  .nav-links li:hover {
+    font-size: 20px;
+    font-weight: bold;
+  }
   .nav-links li{
     display: inline-block;
     width: 100px;
+    margin-left: 15px;
+  }
+  .nav-links a {
+    color: #e9d2d1;
+    text-decoration: none;
   }
   .header-content{
     background-image: url("stars.png");
@@ -70,7 +80,6 @@ body{
   
   .contact{
     text-align: center;
-    
   }
   .contact-links{
     border-radius: 4px;
@@ -79,23 +88,28 @@ body{
   }
   .contact-icon{
     width: 50px;
-    margin: 30px;
+    margin: 40px;
     padding: 10px;
     border: #90d1b8 solid 3px;
     border-radius: 25px;
+  }
+  .contact-icon:hover {
+    width: 60px;
   }
   .picture{
     width: 150px;
     border-radius: 25px;
     float: right;
     border: #977b79 solid 5px;
-    margin: 80px;
+    margin: 130px;
     margin-top: 0;
+    position: absolute;
   }
 .footer{
-  margin-top: 300px;
+  color: #e9d2d1;
+  margin-top: 200px;
   text-align: center;
   padding: 0 40% 0 40%;
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
 }
