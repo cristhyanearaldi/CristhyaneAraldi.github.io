@@ -2,9 +2,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
+    backface-visibility: hidden;
   }
 
+  .background{
+    background-image: url("stars.png");
+    background-size: cover;
+    padding: 0 0 200px 0;
+    background-position: 50% 25%;
+    background-attachment: fixed;
+  }
   .nav-links{
    text-align: right;
    margin-right: 100px;
@@ -22,13 +29,15 @@ body{
     color: #e9d2d1;
     text-decoration: none;
   }
+  /*
   .header-content{
     background-image: url("stars.png");
     background-size: cover;
     padding: 0 0 200px 0;
     background-position: 50% 25%;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
+  */
   .header-content h4{
     color: #90d1b8;
     text-align: center; 
@@ -49,7 +58,7 @@ body{
     margin: 10px;
     display: inline-block;
     vertical-align: middle;
-    padding: 70px 50px;
+    padding: 70px 50px 150px 50px;
   }
   .skills h4{
     color: #977b79;
@@ -77,9 +86,14 @@ body{
     font-weight: bold;
     text-align: center;
   }
-  
+  #projects{
+    margin-bottom: 400px;
+  }
   .contact{
     text-align: center;
+  }
+  .contact h4{
+    margin-bottom: 120px;
   }
   .contact-links{
     border-radius: 4px;
