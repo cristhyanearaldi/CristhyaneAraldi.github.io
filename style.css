@@ -1,129 +1,76 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    backface-visibility: hidden;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .background{
-    background-image: url("stars.png");
-    background-size: cover;
-    padding: 0 0 200px 0;
-    background-position: 50% 25%;
-    background-attachment: fixed;
-  }
-  .nav-links{
-   text-align: right;
-   margin-right: 100px;
-  }
-  .nav-links li:hover {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .nav-links li{
-    display: inline-block;
-    width: 100px;
-    margin-left: 15px;
-  }
-  .nav-links a {
-    color: #e9d2d1;
-    text-decoration: none;
-  }
-  /*
-  .header-content{
-    background-image: url("stars.png");
-    background-size: cover;
-    padding: 0 0 200px 0;
-    background-position: 50% 25%;
-    background-attachment: fixed;
-  }
-  */
-  .header-content h4{
-    color: #90d1b8;
-    text-align: center; 
-    margin: 200px 0px 10px 4px;
-    font-size: 18px;
-  }
-  .header-content h1{
-    color: #977b79;
-    line-height: 30px;
-    text-align: center;
-  }
-  .skills{
-    padding: 70px 50px 40px 30px;
-    width: 80%;
-    margin: auto;
-  }
-  .skills-container{
-    margin: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 70px 50px 150px 50px;
-  }
-  .skills h4{
-    color: #977b79;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: bold;
-  }
-  .skills li{
-    color: #90d1b8;
-    font-size: 18px;
-  }
-  .skills-picture{
-    width: 120px;
-    border-radius: 80%;
-    float: left;
-    margin-top: 150px;
-    margin-right: 40px;
-    transform: rotate(-15deg);
-  }
-    
-  h4{
-    color: #977b79;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-  }
-  #projects{
-    margin-bottom: 400px;
-  }
-  .contact{
-    text-align: center;
-  }
-  .contact h4{
-    margin-bottom: 120px;
-  }
-  .contact-links{
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-  }
-  .contact-icon{
-    width: 50px;
-    margin: 40px;
-    padding: 10px;
-    border: #90d1b8 solid 3px;
-    border-radius: 25px;
-  }
-  .contact-icon:hover {
-    width: 60px;
-  }
-  .picture{
-    width: 150px;
-    border-radius: 25px;
-    float: right;
-    border: #977b79 solid 5px;
-    margin: 130px;
-    margin-top: 0;
-    position: absolute;
-  }
-.footer{
+.background {
+  background-image: url("stars.png");
+  background-size: cover;
+  padding: 0 0 200px 0;
+  background-position: 50% 25%;
+  background-attachment: fixed;
+}
+
+.header-content {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 20px 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav-links li {
+  padding: 0 20px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.nav-links a {
   color: #e9d2d1;
-  margin-top: 200px;
+  text-decoration: none;
+}
+
+.nav-links li:hover {
+  font-size: 1.1em;
+}
+
+.home {
+  color: #90d1b8;
+/*   text-align: center;  */
+  font-size: 18px;
+  padding: 270px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  flex-wrap: wrap;
+  margin: auto;
   text-align: center;
-  padding: 0 40% 0 40%;
-  font-size: 12px;
-  font-style: italic;
+}
+
+.home h4 {
+  margin-bottom: 40px;
+}
+
+.home h1 {
+  color: #977b79;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.skills {
+  color: #90d1b8;
+}
+
+.contact {
+  color: #90d1b8;
 }
