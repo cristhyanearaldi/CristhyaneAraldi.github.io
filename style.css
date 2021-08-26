@@ -18,7 +18,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  /* position: fixed; */
+  position: fixed;
   padding: 0 50px 10px;
   background-color: #494241;
   opacity: 0.6;
@@ -69,7 +69,6 @@
 
 .home h1 {
   color: #a78380;;
-  /* color: #e9d2d1 */
   line-height: 30px;
   margin: 20px 0;
   font-size: 1.9em;
@@ -155,13 +154,26 @@
 #project-text-2 {
   display: flex;
   justify-content: center;
-  /* color: #098b94; */
   color: #a78380;
   font-size: 1.4em;
   font-weight: 700;
   font-style: italic;
   text-decoration: none;
   line-height: 2.5em;
+}
+
+#project-text-2:hover {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.project-text-3 {
+  color: #e9d2d1;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 3% 0 2% 0;
 }
 
 .projects-container {
@@ -176,6 +188,10 @@
   border-radius: 2%;
   border: #59585e solid 2px;
   box-shadow: 0 0 2px 2px #3d3b43;
+}
+
+.myProjects img:hover {
+  box-shadow: 0 0 3px 3px #ada8bb;
 }
 
 .contact h4 {
@@ -209,6 +225,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .header-content{
+    position: relative;
+  }
+
   .nav-links li {
     padding: 0 10px;
   }
@@ -220,6 +240,10 @@
   .home-text h1 {
     font-size: 1.7em;
     font-weight: 900;
+  }
+
+  .home-picture {
+    min-width: 50%;
   }
 
   .skills-container1 {
@@ -244,5 +268,9 @@
   .myProjects img {
     margin: 5% 0 0 15%;
     max-width: 70%;
+  }
+  
+  .contact-links i {
+    margin: 0 20px;
   }
 }
