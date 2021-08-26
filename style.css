@@ -96,6 +96,7 @@
 }
 
 .skills-container1 i {
+  color: #90d1b8;
   padding: 7px 0 0 0;
 }
 
@@ -131,16 +132,21 @@
   margin: 10px 10px 0 10px;
 }
 
-.contact {
-  padding: 15% 0 5% 0;
-}
-
-#projects {
+.project-title {
+  display: flex;
+  justify-content: center;
   font-size: 1.6em;
   color: #90d1b8;
   text-align: center;
-  padding-top: 100px;
   margin: 15% 0 5% 0;
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+.project-title i {
+  padding: 105px 20px 0 0;
 }
 
 #project-text-1 {
@@ -194,10 +200,20 @@
   box-shadow: 0 0 3px 3px #ada8bb;
 }
 
-.contact h4 {
+.contact {
+  padding: 15% 0 5% 0;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
   font-size: 1.6em;
   color: #90d1b8;
   text-align: center;
+}
+
+.contact-title i {
+  padding: 5px 20px 0 0;
 }
 
 .contact-info {
@@ -264,13 +280,26 @@
     justify-content: space-evenly;
     margin: 0 3% 0 6%;
   }
-  
+
+  .project-title {
+    font-size: 1.3em;
+  }
+
   .myProjects img {
     margin: 5% 0 0 15%;
     max-width: 70%;
   }
+
+  .project-text-3 {
+    text-align: center;
+  }
   
+  .contact-title {
+    font-size: 1.3em;
+  }
+
   .contact-links i {
     margin: 0 20px;
+    font-size: 1.8em;
   }
 }
